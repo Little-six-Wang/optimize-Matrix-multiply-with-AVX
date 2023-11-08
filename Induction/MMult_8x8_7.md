@@ -534,4 +534,6 @@ his time the performance graph will look something like:
 
 ![compare MMult_8x8_6 with MMult_8x8_7](picturer/compare_MMult_8x8_6_MMult_8x8_7.png)
 
-You can see some improvement in performance.This reduces indexing overhead.
+You can see some improvement in performance.
+
+Beacuse this reduces indexing overhead.
