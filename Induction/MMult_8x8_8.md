@@ -1,4 +1,4 @@
-# Optimization_8x8_7
+# Optimization_8x8_8
 Copy the contents of file `MMult_8x8_7.c` into a file named `MMult_8x8_8.c` and change the contents:
 
 from
