@@ -64,7 +64,7 @@ void AddDot(int k, double* x, int incx, double* y, double* gamma) {
 ```
 
 
-Based on MMult1.c, the modification is to run eight `AddDot` subroutines at once, reducing the number of loops and preparing for subsequent optimizations.
+Based on `MMult1.c`, the modification is to run eight `AddDot` subroutines at once, reducing the number of loops and preparing for subsequent optimizations.
 
 This time the performance graph will look something like：
 
