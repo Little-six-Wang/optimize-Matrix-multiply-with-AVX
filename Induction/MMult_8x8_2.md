@@ -64,11 +64,11 @@ void AddDot(int k, double* x, int incx, double* y, double* gamma) {
 ```
 
 
-在MMult1.c的基础上进行修改，这次修改是一次运行八个AddDot子程序，从而减少循环次数，同时也为后续的优化做准备。
+Based on MMult1.c, the modification is to run eight `AddDot` subroutines at once, reducing the number of loops and preparing for subsequent optimizations.
 
-这次的性能图如下：
+This time the performance graph will look something like：
 
 ![compare MMult1 with MMult_8x8_2](picturer/compare_MMult1_MMult_8x8_2.png)
 
-可以看到性能提升不明显
+As you can see, the performance improvement is not obvious.
 
