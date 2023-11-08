@@ -530,7 +530,7 @@ void AddDot8x8(int k, double* a, int lda, double* b, int ldb, double* c, int ldc
 ```
 Based on `MMult_8x8_6.c`, this modification mainly uses eight Pointers to access the elements of array B.
 
-his time the performance graph will look something like:
+This time the performance graph will look something like:
 
 ![compare MMult_8x8_6 with MMult_8x8_7](picturer/compare_MMult_8x8_6_MMult_8x8_7.png)
 
