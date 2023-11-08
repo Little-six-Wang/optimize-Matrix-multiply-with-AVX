@@ -62,4 +62,7 @@ void AddDot(int k, double* x, int incx, double* y, double* gamma) {
 	}
 }
 ```
+This time the performance graph will look something like：
+
+![compare MMult1 with MMult_8x8_2](picture\compare_MMult0_MMult_8x8_2.png)
 
