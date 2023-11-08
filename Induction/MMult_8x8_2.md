@@ -62,7 +62,13 @@ void AddDot(int k, double* x, int incx, double* y, double* gamma) {
 	}
 }
 ```
-This time the performance graph will look something like：
 
-![compare MMult1 with MMult_8x8_2](picture\compare_MMult0_MMult_8x8_2.png)
+
+在MMult1.c的基础上进行修改，这次修改是一次运行八个AddDot子程序，从而减少循环次数，同时也为后续的优化做准备。
+
+这次的性能图如下：
+
+![compare MMult1 with MMult_8x8_2](picturer/compare_MMult1_MMult_8x8_2.png)
+
+可以看到性能提升不明显
 
