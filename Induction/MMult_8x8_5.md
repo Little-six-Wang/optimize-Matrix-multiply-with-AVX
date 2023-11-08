@@ -320,6 +320,7 @@ void AddDot8x8(int k, double* a, int lda, double* b, int ldb, double* c, int ldc
 Based on `MMult_4x4_4.c`, this modification is mainly to calculate 64 inner products in one loop.
 
 This time the performance graph will look something like:
+
 ![compare MMult_8x8_4 with MMult_8x8_5](picturer/compare_MMult_8x8_4_MMult_8x8_5.png)
 
 You can see that the performance has improved.
