@@ -567,7 +567,7 @@ void AddDot8x8(int k, double* a, int lda, double* b, int ldb, double* c, int ldc
 	C(7, 7) += c_77_reg;	
 }
 ```
-Based on MMult_8x8_9.c, the modification is mainly to adjust the inner product order and update the 8x8 matrix four rows at a time.
+Based on MMult_8x8_8.c, the modification is mainly to adjust the inner product order and update the 8x8 matrix four rows at a time.
 
 This time the performance graph will look something like:
 
