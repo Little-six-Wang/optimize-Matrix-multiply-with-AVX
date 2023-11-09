@@ -462,7 +462,7 @@ void AddDot8x8(int k, double* a, int lda, double* b, int ldb, double* c, int ldc
 	C(7, 7) += c_47_c_57_c_67_c_77_vreg.d[3];
 }
 ```
-And change the line in the makefile
+And change the line in the `makefile`
 ```makefile
 CFLAGS     := -O2 -Wall -msse3
 ```
