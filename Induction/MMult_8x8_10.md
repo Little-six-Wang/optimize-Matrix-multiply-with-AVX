@@ -462,6 +462,14 @@ void AddDot8x8(int k, double* a, int lda, double* b, int ldb, double* c, int ldc
 	C(7, 7) += c_47_c_57_c_67_c_77_vreg.d[3];
 }
 ```
+And change the line in the makefile
+```makefile
+CFLAGS     := -O2 -Wall -msse3
+```
+ to
+ ```makefile
+ CFLAGS     := -O2 -Wall -mavx
+ ```
 Modified on the basis of MMult_4x4_9.c, this modification mainly uses the AVX instruction set to perform vectorization computation.
 
 This time the performance graph will look something like:
