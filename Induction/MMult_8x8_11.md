@@ -1,5 +1,5 @@
 # Optimization_8x8_11
-Copy the contents of file `MMult_8x8_9.c` into a file named `MMult_8x8_10.c` and change the contents:
+Copy the contents of file `MMult_8x8_10.c` into a file named `MMult_8x8_11.c` and change the contents:
 
 from
 ```C
