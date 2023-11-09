@@ -549,7 +549,7 @@ void AddDot8x8(int k, double* a, int lda, double* b, int ldb, double* c, int ldc
 	C(7, 7) += c_77_reg;	
 }
 ```
-Based on MMult_4x4_7.c, this modification is mainly to load the elements of B into the register.
+Based on MMult_8x8_7.c, this modification is mainly to load the elements of B into the register.
 
 This time the performance graph will look something like:
 
