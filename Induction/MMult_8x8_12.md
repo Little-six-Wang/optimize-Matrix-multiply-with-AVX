@@ -119,3 +119,5 @@ This time the performance graph will look something like:
 You can see that performance has dropped again because:
 
 While dynamic storage of elements in A can be aligned to 256 bits of memory to further improve load efficiency using "_mm256_load_pd", dynamic storage is much more expensive than static storage such as arrays, which greatly negates the efficiency gains at load time.
+
+So in the subsequent optimization I decided to still use arrays and misalignments to load A.
