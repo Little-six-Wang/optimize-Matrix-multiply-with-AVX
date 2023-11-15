@@ -324,7 +324,7 @@ void AddDot8x8(int k, double* a, int lda, double* b, int ldb, double* c, int ldc
 	}		
 }
 ```
-Based on `MMult_8x8_3.c`, the modification is mainly to put the content of `AddDot` subroutine directly into `AddDot4x4`, so as to inline 64 independent inner products.
+Based on `MMult_8x8_3.c`, the modification is mainly to put the content of `AddDot` subroutine directly into `AddDot8x8`, so as to inline 64 independent inner products.
 
 This time the performance graph will look something like:
 
