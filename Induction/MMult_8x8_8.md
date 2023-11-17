@@ -555,4 +555,4 @@ This time the performance graph will look something like:
 
 ![compare MMult_8x8_7 with MMult_8x8_8](picturer/compare_MMult_8x8_7_MMult_8x8_8.png)
 
-We now use registers to store the elements of the current row of B. The performance actually drops slightly(I think this is likely due to the fact that variables exceed the number of registers, causing the compiler to reduce spatial locality when allocating registers, thus reducing performance.). But this step enables further optimizations.
+We now use registers to store the elements of the current row of B. You can see little performance improvement (in fact, there should be a slight decrease).(I think this is likely due to the fact that variables exceed the number of registers, causing the compiler to reduce spatial locality when allocating registers, thus reducing performance.). But this step enables further optimizations.
